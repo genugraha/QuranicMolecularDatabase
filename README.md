@@ -5,6 +5,7 @@
 ![Open Access](https://img.shields.io/badge/Open%20Access-Yes-success)
 ![Format](https://img.shields.io/badge/Format-SDF%20%7C%20SMI%20-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22101904.svg)](https://doi.org/10.5281/zenodo.22101904)
 
 ---
 
