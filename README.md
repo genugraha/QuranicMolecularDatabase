@@ -38,7 +38,7 @@ Inside each plant's specific directory, you will find:
 ## Citation
 If you utilize this database in your research, please cite our repository as follows:
 
-> **Nugraha, G., Khanifah, F., Arifin, M.Z., Vaulina, E., & Delsy, Y. (2026).** *Qur'anic-Based Natural Compound Database for Virtual Screening in Computer-Aided Drug Discovery* [Dataset]. GitHub Repository. Available at: https://github.com/genugraha/QuranicMolecularDatabase
+> **Nugraha, G. (2026).** *Qur'anic-Based Natural Compound Database (Version v1.0.0)* [Dataset]. Zenodo, doi: https://doi.org/10.5281/zenodo.22101904. Available at: https://github.com/genugraha/QuranicMolecularDatabase
 
 *(Note: A peer-reviewed methodological article detailing the construction of this database is currently under review).*
 
