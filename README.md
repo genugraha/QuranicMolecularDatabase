@@ -17,7 +17,6 @@ The library was generated from an initial pool of **4,329 secondary metabolites*
 
 1. **Compound Retrieval & Structural Curation:** Data extracted from the LOTUS database, followed by the rigorous elimination of invalid structures, Pan-Assay Interference Compounds (PAINS), compounds violating Lipinski's Rule of Five (Ro5), and duplicate. This stringent filtering resulted in **1,400 valid bioactive compounds**.
 2. **3D Conformational Optimization:** 3D structural generation and energy minimization executed within the **YASARA Structure** environment (YASARA2 force field, AMBER 14) to achieve thermodynamically stable conformations at physiological pH 7.4.
-3. **Comprehensive ADMET Profiling:** Pharmacokinetic and toxicity predictions were evaluated using the **ADMETlab 3.0** machine-learning platform to ensure candidates possess favorable predicted safety profiles suitable for food therapeutic approaches.
 
 ## Repository Structure
 The entire database is consolidated into a single archive: **`Natural Compound Quranic Database.rar`** (~10 MB). 
