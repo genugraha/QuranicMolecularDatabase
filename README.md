@@ -19,7 +19,7 @@ The library was generated from an initial pool of **4,329 secondary metabolites*
 2. **3D Conformational Optimization:** 3D structural generation and energy minimization executed within the **YASARA Structure** environment (YASARA2 force field, AMBER 14) to achieve thermodynamically stable conformations at physiological pH 7.4.
 
 ## Repository Structure
-The entire database is consolidated into a single archive: **`Natural Compound Quranic Database.rar`** (~10 MB). 
+The entire database is consolidated into a single archive: **`Natural Compound Quranic Database.rar`** (~1.24 MB). 
 
 To facilitate ethnobotanical-specific research, the data inside the archive is systematically organized into **33 distinct folders** based on the botanical taxonomy (e.g., `Acacia_tortilis`, `Zingiber_officinale`). 
 
