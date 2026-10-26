@@ -15,7 +15,7 @@ This repository contains a comprehensively curated, 3D-optimized molecular datab
 ## Dataset Curation Pipeline
 The library was generated from an initial pool of **4,329 secondary metabolites** and processed through a rigorous chemoinformatic pipeline:
 
-1. **Compound Retrieval & Structural Curation:** Data extracted from the LOTUS database, followed by the rigorous elimination of invalid structures, Pan-Assay Interference Compounds (PAINS), and compounds violating Lipinski's Rule of Five (Ro5). This stringent filtering resulted in **1,935 valid bioactive compounds**.
+1. **Compound Retrieval & Structural Curation:** Data extracted from the LOTUS database, followed by the rigorous elimination of invalid structures, Pan-Assay Interference Compounds (PAINS), compounds violating Lipinski's Rule of Five (Ro5), and duplicate. This stringent filtering resulted in **1,400 valid bioactive compounds**.
 2. **3D Conformational Optimization:** 3D structural generation and energy minimization executed within the **YASARA Structure** environment (YASARA2 force field, AMBER 14) to achieve thermodynamically stable conformations at physiological pH 7.4.
 3. **Comprehensive ADMET Profiling:** Pharmacokinetic and toxicity predictions were evaluated using the **ADMETlab 3.0** machine-learning platform to ensure candidates possess favorable predicted safety profiles suitable for food therapeutic approaches.
 
@@ -31,9 +31,8 @@ Inside each plant's specific directory, you will find:
 
 ## How to Use
 1. Download the **`Natural Compound Quranic Database.rar`** archive from the repository.
-2. Extract the archive to your local directory. You will see 33 folders corresponding to each Qur'anic plant.
-3. Navigate to your plant of interest.
-4. The `.sdf` files can be directly imported into major molecular modeling and docking software (e.g., AutoDock Vina, AutoDock 4.2 LGA, YASARA, Discovery Studio, Schrödinger) for immediate virtual screening.
+2. Extract the archive to your local directory. 
+3. The `.sdf` files can be directly imported into major molecular modeling and docking software (e.g., AutoDock Vina, AutoDock 4.2 LGA, YASARA, Discovery Studio, Schrödinger) for immediate virtual screening.
 
 ## Citation
 If you utilize this database in your research, please cite our repository as follows:
